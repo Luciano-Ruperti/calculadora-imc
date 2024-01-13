@@ -55,7 +55,7 @@ body {
 
 .form-control input {
   padding: 1rem 0.5rem;
-  border-radius: 4%;
+  border-radius: 5px;
 }
 
 .action-control {
@@ -74,7 +74,7 @@ button {
   cursor: pointer;
   opacity: 0.9;
   flex: 1;
-  border-radius: 3%;
+  border-radius: 5px;
 }
 
 button:hover {
