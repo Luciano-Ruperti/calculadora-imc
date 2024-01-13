@@ -55,6 +55,7 @@ body {
 
 .form-control input {
   padding: 1rem 0.5rem;
+  border-radius: 4%;
 }
 
 .action-control {
