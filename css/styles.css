@@ -21,9 +21,11 @@ body {
 
 .container {
   min-height: 400px;
-  min-width: 400px;
+  width: 400px;
+  max-width: 95%;
   background-color: #1d1e33;
   padding: 2rem;
+  border-radius: 3%;
 }
 
 /* IMC Form */
@@ -71,6 +73,7 @@ button {
   cursor: pointer;
   opacity: 0.9;
   flex: 1;
+  border-radius: 3%;
 }
 
 button:hover {
@@ -83,7 +86,8 @@ button:hover {
 
 .imc-info {
   margin-top: 2rem;
-  color: #fff;
+  display: flex;
+  justify-content: center;
 }
 
 .imc-info a {
